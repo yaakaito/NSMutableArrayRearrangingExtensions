@@ -10,14 +10,6 @@
 
 @implementation NSMutableArray (Rearranging)
 
-- (id)pickAndDelete:(id)object
-{
-    NSUInteger idx = [self indexOfObject:object];
-    id obj = [self objectAtIndex:idx];
-    [self removeObjectAtIndex:idx];
-    return obj;
-}
-
 - (void)moveObjectToHead:(id)object
 {
     [self removeObject:object];
