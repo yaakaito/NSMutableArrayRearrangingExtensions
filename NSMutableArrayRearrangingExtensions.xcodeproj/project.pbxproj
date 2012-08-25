@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B9BF989315E89DB3009AB96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BF989215E89DB3009AB96C /* Foundation.framework */; };
-		B9BF989915E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF989815E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.m */; };
 		B9BF98A115E89DB4009AB96C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BF98A015E89DB4009AB96C /* SenTestingKit.framework */; };
 		B9BF98A315E89DB4009AB96C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BF98A215E89DB4009AB96C /* UIKit.framework */; };
 		B9BF98A415E89DB4009AB96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BF989215E89DB3009AB96C /* Foundation.framework */; };
 		B9BF98A715E89DB4009AB96C /* libNSMutableArrayRearrangingExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BF988F15E89DB3009AB96C /* libNSMutableArrayRearrangingExtensions.a */; };
 		B9BF98AD15E89DB4009AB96C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BF98AB15E89DB4009AB96C /* InfoPlist.strings */; };
 		B9BF98B015E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF98AF15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.m */; };
+		B9BF98BB15E89DD9009AB96C /* NSMutableArray+Rearranging.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BF98B915E89DD9009AB96C /* NSMutableArray+Rearranging.h */; };
+		B9BF98BC15E89DD9009AB96C /* NSMutableArray+Rearranging.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF98BA15E89DD9009AB96C /* NSMutableArray+Rearranging.m */; };
+		B9BF98BD15E89DD9009AB96C /* NSMutableArray+Rearranging.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF98BA15E89DD9009AB96C /* NSMutableArray+Rearranging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,16 @@
 /* Begin PBXFileReference section */
 		B9BF988F15E89DB3009AB96C /* libNSMutableArrayRearrangingExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSMutableArrayRearrangingExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF989215E89DB3009AB96C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B9BF989615E89DB3009AB96C /* NSMutableArrayRearrangingExtensions-Prefix.pch */ = {isa = PBXFileReference; path = "NSMutableArrayRearrangingExtensions-Prefix.pch"; sourceTree = "<group>"; };
-		B9BF989715E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.h */ = {isa = PBXFileReference; path = NSMutableArrayRearrangingExtensions.h; sourceTree = "<group>"; };
-		B9BF989815E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayRearrangingExtensions.m; sourceTree = "<group>"; };
+		B9BF989615E89DB3009AB96C /* NSMutableArrayRearrangingExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArrayRearrangingExtensions-Prefix.pch"; sourceTree = "<group>"; };
 		B9BF989F15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSMutableArrayRearrangingExtensionsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BF98A015E89DB4009AB96C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B9BF98A215E89DB4009AB96C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9BF98AA15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests-Info.plist */ = {isa = PBXFileReference; path = "NSMutableArrayRearrangingExtensionsTests-Info.plist"; sourceTree = "<group>"; };
+		B9BF98AA15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMutableArrayRearrangingExtensionsTests-Info.plist"; sourceTree = "<group>"; };
 		B9BF98AC15E89DB4009AB96C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B9BF98AE15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.h */ = {isa = PBXFileReference; path = NSMutableArrayRearrangingExtensionsTests.h; sourceTree = "<group>"; };
+		B9BF98AE15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayRearrangingExtensionsTests.h; sourceTree = "<group>"; };
 		B9BF98AF15E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayRearrangingExtensionsTests.m; sourceTree = "<group>"; };
+		B9BF98B915E89DD9009AB96C /* NSMutableArray+Rearranging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Rearranging.h"; sourceTree = "<group>"; };
+		B9BF98BA15E89DD9009AB96C /* NSMutableArray+Rearranging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Rearranging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,9 @@
 		B9BF989415E89DB3009AB96C /* NSMutableArrayRearrangingExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				B9BF989715E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.h */,
-				B9BF989815E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.m */,
 				B9BF989515E89DB3009AB96C /* Supporting Files */,
+				B9BF98B915E89DD9009AB96C /* NSMutableArray+Rearranging.h */,
+				B9BF98BA15E89DD9009AB96C /* NSMutableArray+Rearranging.m */,
 			);
 			path = NSMutableArrayRearrangingExtensions;
 			sourceTree = "<group>";
@@ -138,6 +140,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9BF98BB15E89DD9009AB96C /* NSMutableArray+Rearranging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BF989915E89DB3009AB96C /* NSMutableArrayRearrangingExtensions.m in Sources */,
+				B9BF98BC15E89DD9009AB96C /* NSMutableArray+Rearranging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BF98B015E89DB4009AB96C /* NSMutableArrayRearrangingExtensionsTests.m in Sources */,
+				B9BF98BD15E89DD9009AB96C /* NSMutableArray+Rearranging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
